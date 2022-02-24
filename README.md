@@ -1,1 +1,1 @@
-# FAT.Product.API
+# FAT.Catalog.API
