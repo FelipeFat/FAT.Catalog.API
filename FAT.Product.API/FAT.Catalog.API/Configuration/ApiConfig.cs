@@ -1,4 +1,5 @@
 ﻿using FAT.Catalog.API.Data;
+using FAT.Core.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace FAT.Catalog.API.Configuration
@@ -35,6 +36,8 @@ namespace FAT.Catalog.API.Configuration
             app.UseRouting();
 
             app.UseCors("Total");
+
+            app.UseAuthConfiguration();
 
             app.UseEndpoints(endpoints =>
             {

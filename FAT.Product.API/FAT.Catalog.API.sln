@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAT.Catalog.API", "FAT.Catalog.API\FAT.Catalog.API.csproj", "{7FD89AB3-5D1E-439E-88A4-6279D4A98C6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FAT.Catalog.API", "FAT.Catalog.API\FAT.Catalog.API.csproj", "{7FD89AB3-5D1E-439E-88A4-6279D4A98C6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAT.Core", "src\FAT.Core\FAT.Core.csproj", "{64DE378F-5D8E-497E-BBF8-A19738B66FCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7FD89AB3-5D1E-439E-88A4-6279D4A98C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FD89AB3-5D1E-439E-88A4-6279D4A98C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FD89AB3-5D1E-439E-88A4-6279D4A98C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DE378F-5D8E-497E-BBF8-A19738B66FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DE378F-5D8E-497E-BBF8-A19738B66FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DE378F-5D8E-497E-BBF8-A19738B66FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DE378F-5D8E-497E-BBF8-A19738B66FCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

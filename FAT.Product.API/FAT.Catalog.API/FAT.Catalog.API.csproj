@@ -27,7 +27,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\FAT.Core\FAT.Core.csproj" />
   </ItemGroup>
 
 </Project>
