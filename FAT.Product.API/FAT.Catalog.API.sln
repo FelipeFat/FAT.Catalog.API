@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FAT.Catalog.API", "FAT.Catalog.API\FAT.Catalog.API.csproj", "{7FD89AB3-5D1E-439E-88A4-6279D4A98C6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAT.Core", "src\FAT.Core\FAT.Core.csproj", "{64DE378F-5D8E-497E-BBF8-A19738B66FCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FAT.Core", "src\FAT.Core\FAT.Core.csproj", "{64DE378F-5D8E-497E-BBF8-A19738B66FCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAT.Customer.API", "src\FAT.Customer.API\FAT.Customer.API.csproj", "{4569C371-C89F-4694-9E2D-E4490462C35F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{64DE378F-5D8E-497E-BBF8-A19738B66FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64DE378F-5D8E-497E-BBF8-A19738B66FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64DE378F-5D8E-497E-BBF8-A19738B66FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4569C371-C89F-4694-9E2D-E4490462C35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4569C371-C89F-4694-9E2D-E4490462C35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4569C371-C89F-4694-9E2D-E4490462C35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4569C371-C89F-4694-9E2D-E4490462C35F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
