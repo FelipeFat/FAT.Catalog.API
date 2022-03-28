@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "FAT.Customer.API": {
+    "FAT.Customers.API": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

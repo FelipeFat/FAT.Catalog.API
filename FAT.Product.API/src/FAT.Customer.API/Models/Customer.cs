@@ -1,6 +1,6 @@
 ﻿using FAT.Core.DomainObjects;
 
-namespace FAT.Customer.API.Data
+namespace FAT.Customers.API.Models
 {
     public class Customer : Entity, IAggregateRoot
     {

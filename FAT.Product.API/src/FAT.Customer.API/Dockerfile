@@ -7,16 +7,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["src/FAT.Customer.API/FAT.Customer.API.csproj", "src/FAT.Customer.API/"]
-RUN dotnet restore "src/FAT.Customer.API/FAT.Customer.API.csproj"
+COPY ["src/FAT.Customers.API/FAT.Customers.API.csproj", "src/FAT.Customers.API/"]
+RUN dotnet restore "src/FAT.Customers.API/FAT.Customers.API.csproj"
 COPY . .
-WORKDIR "/src/src/FAT.Customer.API"
-RUN dotnet build "FAT.Customer.API.csproj" -c Release -o /app/build
+WORKDIR "/src/src/FAT.Customers.API"
+RUN dotnet build "FAT.Customers.API.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "FAT.Customer.API.csproj" -c Release -o /app/publish
+RUN dotnet publish "FAT.Customers.API.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "FAT.Customer.API.dll"]
+ENTRYPOINT ["dotnet", "FAT.Customers.API.dll"]

@@ -1,6 +1,6 @@
 ﻿using FAT.Core.DomainObjects;
 
-namespace FAT.Customer.API.Data
+namespace FAT.Customers.API.Models
 {
     public class Address : Entity
     {
@@ -12,6 +12,9 @@ namespace FAT.Customer.API.Data
         public string City { get; private set; }
         public string State { get; private set; }
         public Guid CustomerId { get; private set; }
+
+        // EF Relation
+        public Customer Customer { get; protected set; }
 
         public Address(string street, string number, string complement, string neighborhood, string zipCode, string city, string state)
         {

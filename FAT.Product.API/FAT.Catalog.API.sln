@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FAT.Catalog.API", "FAT.Cata
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FAT.Core", "src\FAT.Core\FAT.Core.csproj", "{64DE378F-5D8E-497E-BBF8-A19738B66FCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAT.Customer.API", "src\FAT.Customer.API\FAT.Customer.API.csproj", "{4569C371-C89F-4694-9E2D-E4490462C35F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FAT.Customers.API", "src\FAT.Customer.API\FAT.Customers.API.csproj", "{4569C371-C89F-4694-9E2D-E4490462C35F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
